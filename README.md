@@ -56,6 +56,7 @@ OUR OWN TWO FEATURES WE IMPLEMENTED:
 
 1. Dark mode
 you change it buy pressing 3 dotted line at the top green bar at the homepage. The text : Toggle dark mode will appear then you tick the block.
+
 ![image](https://github.com/user-attachments/assets/ee0183e7-31fa-4d5a-958e-4304baf154d6)
 
 THIS IS HOW IT BECOMES AFTER BEING ON DARK MODE: 
