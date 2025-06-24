@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/categories_navigation"
+    app:startDestination="@id/firstMenuFragment">
+
+    <fragment
+        android:id="@+id/firstMenuFragment"
+        android:name="com.example.isave.Fragments.FirstMenuFragment"
+        android:label="fragment_first_menu"
+        tools:layout="@layout/fragment_first_menu" >
+        <action
+            android:id="@+id/action_firstMenuFragment_to_categoriesFragment"
+            app:destination="@id/categoriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.example.isave.Fragments.CategoriesFragment"
+        android:label="fragment_categories"
+        tools:layout="@layout/fragment_categories" >
+        <action
+            android:id="@+id/action_categoriesFragment_to_firstMenuFragment"
+            app:destination="@id/firstMenuFragment" />
+        <action
+            android:id="@+id/action_categoriesFragment_to_addNewExpenseCategory"
+            app:destination="@id/addNewExpenseCategory" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewExpenseCategory"
+        android:name="com.example.isave.Fragments.AddNewExpenseCategory"
+        android:label="fragment_add_new_expense_category"
+        tools:layout="@layout/fragment_add_new_expense_category" >
+        <action
+            android:id="@+id/action_addNewExpenseCategory_to_categoriesFragment"
+            app:destination="@id/categoriesFragment" />
+    </fragment>
+</navigation>

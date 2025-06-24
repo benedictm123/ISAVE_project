@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    android:layout_gravity="center"
+    android:backgroundTint="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/dialog_background">
+
+        <ImageView
+            android:id="@+id/badgeIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/trophy"
+            android:contentDescription="Award Trophy"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/badgeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Congratulations!"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/badgeMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You've successfully stayed within your budget goal this month! Keep up the great work!"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="24dp" />
+
+
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:backgroundTint="@color/design_default_color_primary_dark"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

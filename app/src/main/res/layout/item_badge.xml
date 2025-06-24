@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/badgeIcon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/trophy"
+            android:contentDescription="Badge Icon"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/badgeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Badge Name"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/badgeDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:text="Description of badge and date"
+            android:textColor="@android:color/darker_gray"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

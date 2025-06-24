@@ -1,0 +1,31 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+
+    <!-- TextView TO DISPLAY SPENDING STATUS -->
+<TextView
+    android:id="@+id/spendingStatusText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Spending Status"
+    android:textAlignment="center"
+    android:textSize="18sp" />
+
+<!-- PROGRESS BAR TO SHOW PROGRESS PERCENTAGE -->
+<ProgressBar
+    android:id="@+id/progressBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:max="100" />
+
+<!-- BAR CHART TO VISUALIZE SPENDING GOALS  -->
+<com.github.mikephil.charting.charts.BarChart
+    android:id="@+id/barChart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</LinearLayout>

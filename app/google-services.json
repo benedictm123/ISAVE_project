@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "685317909003",
+    "project_id": "isavebudget",
+    "storage_bucket": "isavebudget.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685317909003:android:b7148e569d451e484ab50e",
+        "android_client_info": {
+          "package_name": "com.example.isave"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv38UZz3d6xZhAFHfppy7YY3BZ_ZZLRj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
