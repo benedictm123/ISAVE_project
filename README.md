@@ -42,11 +42,11 @@ How to use our iSave budgeting app:
 ![image](https://github.com/user-attachments/assets/371d1ca4-749e-4d0c-96f9-61dfa4d2d9db)
 
 13. When you click on the second icon from your left, you will go to transaction page where you will see the graph/ pie chart showing the amount spent per category over a selectable period.
-    ![image](https://github.com/user-attachments/assets/992d6d3a-95ee-4dc0-bba6-e2fd666fbbc4)
+![image](https://github.com/user-attachments/assets/992d6d3a-95ee-4dc0-bba6-e2fd666fbbc4)
 
-14. The visual format of how the user is doing with staying between their min and max spending goals is accessable in the category totals page. There are 3 buttons underneath the totals, Set spending goals,view badges and view spending progress.
-15. First button is for setting the min and max of your spending goal then the second one is for viewing it in a visual format.
-16. The third button is for viewing your badges you recieved after staying within budget.
+15. The visual format of how the user is doing with staying between their min and max spending goals is accessable in the category totals page. There are 3 buttons underneath the totals, Set spending goals,view badges and view spending progress.
+16. First button is for setting the min and max of your spending goal then the second one is for viewing it in a visual format.
+17. The third button is for viewing your badges you recieved after staying within budget.
 ![image](https://github.com/user-attachments/assets/785599e9-0458-460f-9471-62170fed1781)
 ![image](https://github.com/user-attachments/assets/f546235c-3334-4d55-88b0-931e6236d14f)
 ![image](https://github.com/user-attachments/assets/2312c6b5-0bd3-40dd-918a-09999e5ce56d)
@@ -57,11 +57,14 @@ OUR OWN TWO FEATURES WE IMPLEMENTED:
 1. Dark mode
 you change it buy pressing 3 dotted line at the top green bar at the homepage. The text : Toggle dark mode will appear then you tick the block.
 ![image](https://github.com/user-attachments/assets/ee0183e7-31fa-4d5a-958e-4304baf154d6)
-THIS IS HOW IT BECOMES AFTER BEING ON DARK MODE:
+
+THIS IS HOW IT BECOMES AFTER BEING ON DARK MODE: 
+
 ![image](https://github.com/user-attachments/assets/f9a202bd-0707-40a9-8a7f-b7dbf9abaded)
 
-2. Deletion of transactions
+3. Deletion of transactions
 you can delete the transactions by press and hold the transaction you want to delete then a pop-up will show asking are you sure, then if sure you click delete. it shall be deleted even on the graph.
+
 ![image](https://github.com/user-attachments/assets/662ede29-8e96-4f76-920b-6a3aafa55556)
 
 
