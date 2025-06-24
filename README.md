@@ -1,7 +1,7 @@
 Application used to create this app is android studio meerkat 2024 version.
 The database that is used is SQLite.
 
-This is the link to the video showing how to use the app:  
+This is the link to the video showing how to use the app:  https://youtu.be/_o9GiB5gsxs?si=ctkwIim5WTnZgjP6 
 
 
 How to run the app on android studio and/or on your android phone:
